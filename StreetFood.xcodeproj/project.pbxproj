@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3630EC6A282BDD5B0014F0FF /* StreetFoodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3630EC69282BDD5B0014F0FF /* StreetFoodApp.swift */; };
+		3630EC6C282BDD5B0014F0FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3630EC6B282BDD5B0014F0FF /* ContentView.swift */; };
+		3630EC6E282BDD5C0014F0FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3630EC6D282BDD5C0014F0FF /* Assets.xcassets */; };
+		3630EC71282BDD5C0014F0FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3630EC70282BDD5C0014F0FF /* Preview Assets.xcassets */; };
+		3630EC7B282BDD5C0014F0FF /* StreetFoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3630EC7A282BDD5C0014F0FF /* StreetFoodTests.swift */; };
+		3630EC85282BDD5C0014F0FF /* StreetFoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3630EC84282BDD5C0014F0FF /* StreetFoodUITests.swift */; };
+		3630EC87282BDD5C0014F0FF /* StreetFoodUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3630EC86282BDD5C0014F0FF /* StreetFoodUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3630EC77282BDD5C0014F0FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3630EC5E282BDD5B0014F0FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3630EC65282BDD5B0014F0FF;
+			remoteInfo = StreetFood;
+		};
+		3630EC81282BDD5C0014F0FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3630EC5E282BDD5B0014F0FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3630EC65282BDD5B0014F0FF;
+			remoteInfo = StreetFood;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3630EC66282BDD5B0014F0FF /* StreetFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StreetFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3630EC69282BDD5B0014F0FF /* StreetFoodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreetFoodApp.swift; sourceTree = "<group>"; };
+		3630EC6B282BDD5B0014F0FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3630EC6D282BDD5C0014F0FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3630EC70282BDD5C0014F0FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3630EC76282BDD5C0014F0FF /* StreetFoodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StreetFoodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3630EC7A282BDD5C0014F0FF /* StreetFoodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreetFoodTests.swift; sourceTree = "<group>"; };
+		3630EC80282BDD5C0014F0FF /* StreetFoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StreetFoodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3630EC84282BDD5C0014F0FF /* StreetFoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreetFoodUITests.swift; sourceTree = "<group>"; };
+		3630EC86282BDD5C0014F0FF /* StreetFoodUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreetFoodUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3630EC63282BDD5B0014F0FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3630EC73282BDD5C0014F0FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3630EC7D282BDD5C0014F0FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3630EC5D282BDD5B0014F0FF = {
+			isa = PBXGroup;
+			children = (
+				3630EC68282BDD5B0014F0FF /* StreetFood */,
+				3630EC79282BDD5C0014F0FF /* StreetFoodTests */,
+				3630EC83282BDD5C0014F0FF /* StreetFoodUITests */,
+				3630EC67282BDD5B0014F0FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3630EC67282BDD5B0014F0FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3630EC66282BDD5B0014F0FF /* StreetFood.app */,
+				3630EC76282BDD5C0014F0FF /* StreetFoodTests.xctest */,
+				3630EC80282BDD5C0014F0FF /* StreetFoodUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3630EC68282BDD5B0014F0FF /* StreetFood */ = {
+			isa = PBXGroup;
+			children = (
+				3630EC69282BDD5B0014F0FF /* StreetFoodApp.swift */,
+				3630EC6B282BDD5B0014F0FF /* ContentView.swift */,
+				3630EC6D282BDD5C0014F0FF /* Assets.xcassets */,
+				3630EC6F282BDD5C0014F0FF /* Preview Content */,
+			);
+			path = StreetFood;
+			sourceTree = "<group>";
+		};
+		3630EC6F282BDD5C0014F0FF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3630EC70282BDD5C0014F0FF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3630EC79282BDD5C0014F0FF /* StreetFoodTests */ = {
+			isa = PBXGroup;
+			children = (
+				3630EC7A282BDD5C0014F0FF /* StreetFoodTests.swift */,
+			);
+			path = StreetFoodTests;
+			sourceTree = "<group>";
+		};
+		3630EC83282BDD5C0014F0FF /* StreetFoodUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3630EC84282BDD5C0014F0FF /* StreetFoodUITests.swift */,
+				3630EC86282BDD5C0014F0FF /* StreetFoodUITestsLaunchTests.swift */,
+			);
+			path = StreetFoodUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3630EC65282BDD5B0014F0FF /* StreetFood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3630EC8A282BDD5C0014F0FF /* Build configuration list for PBXNativeTarget "StreetFood" */;
+			buildPhases = (
+				3630EC62282BDD5B0014F0FF /* Sources */,
+				3630EC63282BDD5B0014F0FF /* Frameworks */,
+				3630EC64282BDD5B0014F0FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StreetFood;
+			productName = StreetFood;
+			productReference = 3630EC66282BDD5B0014F0FF /* StreetFood.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3630EC75282BDD5C0014F0FF /* StreetFoodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3630EC8D282BDD5C0014F0FF /* Build configuration list for PBXNativeTarget "StreetFoodTests" */;
+			buildPhases = (
+				3630EC72282BDD5C0014F0FF /* Sources */,
+				3630EC73282BDD5C0014F0FF /* Frameworks */,
+				3630EC74282BDD5C0014F0FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3630EC78282BDD5C0014F0FF /* PBXTargetDependency */,
+			);
+			name = StreetFoodTests;
+			productName = StreetFoodTests;
+			productReference = 3630EC76282BDD5C0014F0FF /* StreetFoodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3630EC7F282BDD5C0014F0FF /* StreetFoodUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3630EC90282BDD5C0014F0FF /* Build configuration list for PBXNativeTarget "StreetFoodUITests" */;
+			buildPhases = (
+				3630EC7C282BDD5C0014F0FF /* Sources */,
+				3630EC7D282BDD5C0014F0FF /* Frameworks */,
+				3630EC7E282BDD5C0014F0FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3630EC82282BDD5C0014F0FF /* PBXTargetDependency */,
+			);
+			name = StreetFoodUITests;
+			productName = StreetFoodUITests;
+			productReference = 3630EC80282BDD5C0014F0FF /* StreetFoodUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3630EC5E282BDD5B0014F0FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					3630EC65282BDD5B0014F0FF = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					3630EC75282BDD5C0014F0FF = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 3630EC65282BDD5B0014F0FF;
+					};
+					3630EC7F282BDD5C0014F0FF = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 3630EC65282BDD5B0014F0FF;
+					};
+				};
+			};
+			buildConfigurationList = 3630EC61282BDD5B0014F0FF /* Build configuration list for PBXProject "StreetFood" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3630EC5D282BDD5B0014F0FF;
+			productRefGroup = 3630EC67282BDD5B0014F0FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3630EC65282BDD5B0014F0FF /* StreetFood */,
+				3630EC75282BDD5C0014F0FF /* StreetFoodTests */,
+				3630EC7F282BDD5C0014F0FF /* StreetFoodUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3630EC64282BDD5B0014F0FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3630EC71282BDD5C0014F0FF /* Preview Assets.xcassets in Resources */,
+				3630EC6E282BDD5C0014F0FF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3630EC74282BDD5C0014F0FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3630EC7E282BDD5C0014F0FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3630EC62282BDD5B0014F0FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3630EC6C282BDD5B0014F0FF /* ContentView.swift in Sources */,
+				3630EC6A282BDD5B0014F0FF /* StreetFoodApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3630EC72282BDD5C0014F0FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3630EC7B282BDD5C0014F0FF /* StreetFoodTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3630EC7C282BDD5C0014F0FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3630EC85282BDD5C0014F0FF /* StreetFoodUITests.swift in Sources */,
+				3630EC87282BDD5C0014F0FF /* StreetFoodUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3630EC78282BDD5C0014F0FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3630EC65282BDD5B0014F0FF /* StreetFood */;
+			targetProxy = 3630EC77282BDD5C0014F0FF /* PBXContainerItemProxy */;
+		};
+		3630EC82282BDD5C0014F0FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3630EC65282BDD5B0014F0FF /* StreetFood */;
+			targetProxy = 3630EC81282BDD5C0014F0FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3630EC88282BDD5C0014F0FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3630EC89282BDD5C0014F0FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3630EC8B282BDD5C0014F0FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StreetFood/Preview Content\"";
+				DEVELOPMENT_TEAM = 8D2H27TXKN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ADAIFCE.StreetFood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3630EC8C282BDD5C0014F0FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StreetFood/Preview Content\"";
+				DEVELOPMENT_TEAM = 8D2H27TXKN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ADAIFCE.StreetFood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3630EC8E282BDD5C0014F0FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8D2H27TXKN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ADAIFCE.StreetFoodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StreetFood.app/StreetFood";
+			};
+			name = Debug;
+		};
+		3630EC8F282BDD5C0014F0FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8D2H27TXKN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ADAIFCE.StreetFoodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StreetFood.app/StreetFood";
+			};
+			name = Release;
+		};
+		3630EC91282BDD5C0014F0FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8D2H27TXKN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ADAIFCE.StreetFoodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StreetFood;
+			};
+			name = Debug;
+		};
+		3630EC92282BDD5C0014F0FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8D2H27TXKN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ADAIFCE.StreetFoodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StreetFood;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3630EC61282BDD5B0014F0FF /* Build configuration list for PBXProject "StreetFood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3630EC88282BDD5C0014F0FF /* Debug */,
+				3630EC89282BDD5C0014F0FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3630EC8A282BDD5C0014F0FF /* Build configuration list for PBXNativeTarget "StreetFood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3630EC8B282BDD5C0014F0FF /* Debug */,
+				3630EC8C282BDD5C0014F0FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3630EC8D282BDD5C0014F0FF /* Build configuration list for PBXNativeTarget "StreetFoodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3630EC8E282BDD5C0014F0FF /* Debug */,
+				3630EC8F282BDD5C0014F0FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3630EC90282BDD5C0014F0FF /* Build configuration list for PBXNativeTarget "StreetFoodUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3630EC91282BDD5C0014F0FF /* Debug */,
+				3630EC92282BDD5C0014F0FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3630EC5E282BDD5B0014F0FF /* Project object */;
+}
