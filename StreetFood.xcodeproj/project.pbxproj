@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3620610828328C220074A2FD /* PlaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3620610728328C220074A2FD /* PlaceView.swift */; };
+		3620610A283294720074A2FD /* SavedPlacesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36206109283294720074A2FD /* SavedPlacesView.swift */; };
 		3630EC6A282BDD5B0014F0FF /* StreetFoodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3630EC69282BDD5B0014F0FF /* StreetFoodApp.swift */; };
 		3630EC6C282BDD5B0014F0FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3630EC6B282BDD5B0014F0FF /* ContentView.swift */; };
 		3630EC6E282BDD5C0014F0FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3630EC6D282BDD5C0014F0FF /* Assets.xcassets */; };
@@ -14,6 +16,9 @@
 		3630EC7B282BDD5C0014F0FF /* StreetFoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3630EC7A282BDD5C0014F0FF /* StreetFoodTests.swift */; };
 		3630EC85282BDD5C0014F0FF /* StreetFoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3630EC84282BDD5C0014F0FF /* StreetFoodUITests.swift */; };
 		3630EC87282BDD5C0014F0FF /* StreetFoodUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3630EC86282BDD5C0014F0FF /* StreetFoodUITestsLaunchTests.swift */; };
+		3690F9C22831700C00F95B41 /* FoodMapTESTE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3690F9C12831700C00F95B41 /* FoodMapTESTE.swift */; };
+		3690F9C82831708F00F95B41 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3690F9C72831708F00F95B41 /* LocationModel.swift */; };
+		36FF08D3282D27DE008FAF0E /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 36FF08D2282D27DE008FAF0E /* Algorithms */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3620610728328C220074A2FD /* PlaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceView.swift; sourceTree = "<group>"; };
+		36206109283294720074A2FD /* SavedPlacesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedPlacesView.swift; sourceTree = "<group>"; };
 		3630EC66282BDD5B0014F0FF /* StreetFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StreetFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3630EC69282BDD5B0014F0FF /* StreetFoodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreetFoodApp.swift; sourceTree = "<group>"; };
 		3630EC6B282BDD5B0014F0FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +51,8 @@
 		3630EC80282BDD5C0014F0FF /* StreetFoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StreetFoodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3630EC84282BDD5C0014F0FF /* StreetFoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreetFoodUITests.swift; sourceTree = "<group>"; };
 		3630EC86282BDD5C0014F0FF /* StreetFoodUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreetFoodUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3690F9C12831700C00F95B41 /* FoodMapTESTE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodMapTESTE.swift; sourceTree = "<group>"; };
+		3690F9C72831708F00F95B41 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36FF08D3282D27DE008FAF0E /* Algorithms in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +106,8 @@
 			children = (
 				3630EC69282BDD5B0014F0FF /* StreetFoodApp.swift */,
 				3630EC6B282BDD5B0014F0FF /* ContentView.swift */,
+				36FF08D8282D2D7E008FAF0E /* Views */,
+				3690F9C42831704900F95B41 /* Models */,
 				3630EC6D282BDD5C0014F0FF /* Assets.xcassets */,
 				3630EC6F282BDD5C0014F0FF /* Preview Content */,
 			);
@@ -127,6 +139,24 @@
 			path = StreetFoodUITests;
 			sourceTree = "<group>";
 		};
+		3690F9C42831704900F95B41 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3690F9C72831708F00F95B41 /* LocationModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		36FF08D8282D2D7E008FAF0E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3690F9C12831700C00F95B41 /* FoodMapTESTE.swift */,
+				3620610728328C220074A2FD /* PlaceView.swift */,
+				36206109283294720074A2FD /* SavedPlacesView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +173,9 @@
 			dependencies = (
 			);
 			name = StreetFood;
+			packageProductDependencies = (
+				36FF08D2282D27DE008FAF0E /* Algorithms */,
+			);
 			productName = StreetFood;
 			productReference = 3630EC66282BDD5B0014F0FF /* StreetFood.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +248,9 @@
 				Base,
 			);
 			mainGroup = 3630EC5D282BDD5B0014F0FF;
+			packageReferences = (
+				36FF08D1282D27DE008FAF0E /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+			);
 			productRefGroup = 3630EC67282BDD5B0014F0FF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +293,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3690F9C82831708F00F95B41 /* LocationModel.swift in Sources */,
+				3690F9C22831700C00F95B41 /* FoodMapTESTE.swift in Sources */,
+				3620610828328C220074A2FD /* PlaceView.swift in Sources */,
 				3630EC6C282BDD5B0014F0FF /* ContentView.swift in Sources */,
 				3630EC6A282BDD5B0014F0FF /* StreetFoodApp.swift in Sources */,
+				3620610A283294720074A2FD /* SavedPlacesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -583,6 +623,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		36FF08D1282D27DE008FAF0E /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		36FF08D2282D27DE008FAF0E /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 36FF08D1282D27DE008FAF0E /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3630EC5E282BDD5B0014F0FF /* Project object */;
 }
