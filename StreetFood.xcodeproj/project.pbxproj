@@ -18,6 +18,7 @@
 		3630EC87282BDD5C0014F0FF /* StreetFoodUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3630EC86282BDD5C0014F0FF /* StreetFoodUITestsLaunchTests.swift */; };
 		3690F9C22831700C00F95B41 /* FoodMapTESTE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3690F9C12831700C00F95B41 /* FoodMapTESTE.swift */; };
 		3690F9C82831708F00F95B41 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3690F9C72831708F00F95B41 /* LocationModel.swift */; };
+		36ACE28E28352E4B001508B4 /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36ACE28D28352E4B001508B4 /* MenuModel.swift */; };
 		36FF08D3282D27DE008FAF0E /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 36FF08D2282D27DE008FAF0E /* Algorithms */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +54,7 @@
 		3630EC86282BDD5C0014F0FF /* StreetFoodUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreetFoodUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3690F9C12831700C00F95B41 /* FoodMapTESTE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodMapTESTE.swift; sourceTree = "<group>"; };
 		3690F9C72831708F00F95B41 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		36ACE28D28352E4B001508B4 /* MenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				3690F9C72831708F00F95B41 /* LocationModel.swift */,
+				36ACE28D28352E4B001508B4 /* MenuModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 				3690F9C82831708F00F95B41 /* LocationModel.swift in Sources */,
 				3690F9C22831700C00F95B41 /* FoodMapTESTE.swift in Sources */,
 				3620610828328C220074A2FD /* PlaceView.swift in Sources */,
+				36ACE28E28352E4B001508B4 /* MenuModel.swift in Sources */,
 				3630EC6C282BDD5B0014F0FF /* ContentView.swift in Sources */,
 				3630EC6A282BDD5B0014F0FF /* StreetFoodApp.swift in Sources */,
 				3620610A283294720074A2FD /* SavedPlacesView.swift in Sources */,

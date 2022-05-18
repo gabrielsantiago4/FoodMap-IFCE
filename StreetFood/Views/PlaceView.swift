@@ -25,12 +25,12 @@ struct PlaceView: View {
             Text(restaurant.openingHours)
                 .padding(.leading)
             List{
-                ForEach(restaurant.menu.sorted(by: >), id: \.key) { key, value in
+                ForEach(restaurant.menu.sorted(by: <), id: \.key) { key, value in
                     HStack(alignment:.top) {
                         Text(key)
                             .bold()
                         Spacer()
-                        Text(String(format: "R$\(value)", ".%3f"))
+                        Text(String(format: "R$\(value)", ".%2f"))
                         
                     }
                     
