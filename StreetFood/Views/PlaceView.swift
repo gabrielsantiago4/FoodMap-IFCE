@@ -15,7 +15,7 @@ struct PlaceView: View {
         VStack(alignment: .leading) {
             Image(restaurant.imageName)
                 .resizable()
-                .aspectRatio(contentMode: .fit)
+                .aspectRatio(contentMode: .fill)
             Text(restaurant.name)
                 .bold()
                 .font(.title)
@@ -24,15 +24,27 @@ struct PlaceView: View {
                 .padding(.leading)
             Text(restaurant.openingHours)
                 .padding(.leading)
-            Spacer()
-
-        } 
+            List{
+                ForEach(restaurant.menu.sorted(by: >), id: \.key) { key, value in
+                    HStack(alignment:.top) {
+                        Text(key)
+                            .bold()
+                        Spacer()
+                        Text(String(format: "R$\(value)", ".%3f"))
+                        
+                    }
+                    
+                }
+            }
+        }
         
     }
 }
 
 struct PlaceView_Previews: PreviewProvider {
     static var previews: some View {
-        PlaceView(restaurant: LocationModel.mock().first!)
+        NavigationView {
+            PlaceView(restaurant: LocationModel.mock().first!)
+        }
     }
 }
