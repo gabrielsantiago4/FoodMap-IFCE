@@ -28,7 +28,7 @@ struct LocationModel: Identifiable {
                 "Salgado" : 3.50,
                 "Achocolatado" : 2.50,
                 "Refrigerante" : 3.50,
-                "podeguarana" : 3.50
+                "Pó de Guraná" : 3.50
             ]),
             LocationModel(name: "Carrinho do Tio", mainCourse: "Sanduíche de Páo Carioca", openingHours: "6:00h - 18:00h", locationReference: "Entrada da 13 de maio" ,coordinate: CLLocationCoordinate2D(latitude: -3.744207, longitude: -38.535440), imageName: ""),
         ]
