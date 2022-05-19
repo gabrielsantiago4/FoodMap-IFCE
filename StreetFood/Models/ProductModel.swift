@@ -7,9 +7,9 @@
 
 import Foundation
 
-struct Menu: Identifiable {
+struct ProductModel: Identifiable, Hashable {
     let id = UUID()
     let name: String
-    let price: Double
+    let price: String
     
 }

@@ -9,7 +9,8 @@ import SwiftUI
 import MapKit
 
 struct FoodMapTESTE: View {
-    @State var mapRegion = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: -3.744442, longitude: -38.536031), span: MKCoordinateSpan(latitudeDelta: 0.009, longitudeDelta: 0.009))
+    @State var mapRegion = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: -3.744442, longitude: -38.536031), span: MKCoordinateSpan(latitudeDelta: 0.005, longitudeDelta: 0.005))
+    
     
     let locations = LocationModel.mock()
     
@@ -22,7 +23,7 @@ struct FoodMapTESTE: View {
                     Image(systemName: "mappin.and.ellipse")
                         .resizable()
                         .aspectRatio(contentMode: .fit)
-                        .frame(width: 45, height: 45)
+                        .frame(width: 40, height: 50)
                         .foregroundColor(Color(hue: 1.0, saturation: 0.774, brightness: 1.0))
                 }
             }
