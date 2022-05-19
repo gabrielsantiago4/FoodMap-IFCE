@@ -42,14 +42,14 @@
 /* Begin PBXFileReference section */
 		3620610728328C220074A2FD /* PlaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceView.swift; sourceTree = "<group>"; };
 		36206109283294720074A2FD /* SavedPlacesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedPlacesView.swift; sourceTree = "<group>"; };
-		3630EC66282BDD5B0014F0FF /* StreetFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StreetFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3630EC66282BDD5B0014F0FF /* Foodmap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foodmap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3630EC69282BDD5B0014F0FF /* StreetFoodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreetFoodApp.swift; sourceTree = "<group>"; };
 		3630EC6B282BDD5B0014F0FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3630EC6D282BDD5C0014F0FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3630EC70282BDD5C0014F0FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		3630EC76282BDD5C0014F0FF /* StreetFoodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StreetFoodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3630EC76282BDD5C0014F0FF /* FoodmapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodmapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3630EC7A282BDD5C0014F0FF /* StreetFoodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreetFoodTests.swift; sourceTree = "<group>"; };
-		3630EC80282BDD5C0014F0FF /* StreetFoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StreetFoodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3630EC80282BDD5C0014F0FF /* FoodmapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodmapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3630EC84282BDD5C0014F0FF /* StreetFoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreetFoodUITests.swift; sourceTree = "<group>"; };
 		3630EC86282BDD5C0014F0FF /* StreetFoodUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreetFoodUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3690F9C12831700C00F95B41 /* FoodMapTESTE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodMapTESTE.swift; sourceTree = "<group>"; };
@@ -96,9 +96,9 @@
 		3630EC67282BDD5B0014F0FF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3630EC66282BDD5B0014F0FF /* StreetFood.app */,
-				3630EC76282BDD5C0014F0FF /* StreetFoodTests.xctest */,
-				3630EC80282BDD5C0014F0FF /* StreetFoodUITests.xctest */,
+				3630EC66282BDD5B0014F0FF /* Foodmap.app */,
+				3630EC76282BDD5C0014F0FF /* FoodmapTests.xctest */,
+				3630EC80282BDD5C0014F0FF /* FoodmapUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -163,9 +163,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3630EC65282BDD5B0014F0FF /* StreetFood */ = {
+		3630EC65282BDD5B0014F0FF /* Foodmap */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3630EC8A282BDD5C0014F0FF /* Build configuration list for PBXNativeTarget "StreetFood" */;
+			buildConfigurationList = 3630EC8A282BDD5C0014F0FF /* Build configuration list for PBXNativeTarget "Foodmap" */;
 			buildPhases = (
 				3630EC62282BDD5B0014F0FF /* Sources */,
 				3630EC63282BDD5B0014F0FF /* Frameworks */,
@@ -175,17 +175,17 @@
 			);
 			dependencies = (
 			);
-			name = StreetFood;
+			name = Foodmap;
 			packageProductDependencies = (
 				36FF08D2282D27DE008FAF0E /* Algorithms */,
 			);
 			productName = StreetFood;
-			productReference = 3630EC66282BDD5B0014F0FF /* StreetFood.app */;
+			productReference = 3630EC66282BDD5B0014F0FF /* Foodmap.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3630EC75282BDD5C0014F0FF /* StreetFoodTests */ = {
+		3630EC75282BDD5C0014F0FF /* FoodmapTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3630EC8D282BDD5C0014F0FF /* Build configuration list for PBXNativeTarget "StreetFoodTests" */;
+			buildConfigurationList = 3630EC8D282BDD5C0014F0FF /* Build configuration list for PBXNativeTarget "FoodmapTests" */;
 			buildPhases = (
 				3630EC72282BDD5C0014F0FF /* Sources */,
 				3630EC73282BDD5C0014F0FF /* Frameworks */,
@@ -196,14 +196,14 @@
 			dependencies = (
 				3630EC78282BDD5C0014F0FF /* PBXTargetDependency */,
 			);
-			name = StreetFoodTests;
+			name = FoodmapTests;
 			productName = StreetFoodTests;
-			productReference = 3630EC76282BDD5C0014F0FF /* StreetFoodTests.xctest */;
+			productReference = 3630EC76282BDD5C0014F0FF /* FoodmapTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3630EC7F282BDD5C0014F0FF /* StreetFoodUITests */ = {
+		3630EC7F282BDD5C0014F0FF /* FoodmapUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3630EC90282BDD5C0014F0FF /* Build configuration list for PBXNativeTarget "StreetFoodUITests" */;
+			buildConfigurationList = 3630EC90282BDD5C0014F0FF /* Build configuration list for PBXNativeTarget "FoodmapUITests" */;
 			buildPhases = (
 				3630EC7C282BDD5C0014F0FF /* Sources */,
 				3630EC7D282BDD5C0014F0FF /* Frameworks */,
@@ -214,9 +214,9 @@
 			dependencies = (
 				3630EC82282BDD5C0014F0FF /* PBXTargetDependency */,
 			);
-			name = StreetFoodUITests;
+			name = FoodmapUITests;
 			productName = StreetFoodUITests;
-			productReference = 3630EC80282BDD5C0014F0FF /* StreetFoodUITests.xctest */;
+			productReference = 3630EC80282BDD5C0014F0FF /* FoodmapUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -242,7 +242,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3630EC61282BDD5B0014F0FF /* Build configuration list for PBXProject "StreetFood" */;
+			buildConfigurationList = 3630EC61282BDD5B0014F0FF /* Build configuration list for PBXProject "Foodmap" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -258,9 +258,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3630EC65282BDD5B0014F0FF /* StreetFood */,
-				3630EC75282BDD5C0014F0FF /* StreetFoodTests */,
-				3630EC7F282BDD5C0014F0FF /* StreetFoodUITests */,
+				3630EC65282BDD5B0014F0FF /* Foodmap */,
+				3630EC75282BDD5C0014F0FF /* FoodmapTests */,
+				3630EC7F282BDD5C0014F0FF /* FoodmapUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -328,12 +328,12 @@
 /* Begin PBXTargetDependency section */
 		3630EC78282BDD5C0014F0FF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3630EC65282BDD5B0014F0FF /* StreetFood */;
+			target = 3630EC65282BDD5B0014F0FF /* Foodmap */;
 			targetProxy = 3630EC77282BDD5C0014F0FF /* PBXContainerItemProxy */;
 		};
 		3630EC82282BDD5C0014F0FF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3630EC65282BDD5B0014F0FF /* StreetFood */;
+			target = 3630EC65282BDD5B0014F0FF /* Foodmap */;
 			targetProxy = 3630EC81282BDD5C0014F0FF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -527,7 +527,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StreetFood.app/StreetFood";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Foodmap.app/Foodmap";
 			};
 			name = Debug;
 		};
@@ -547,7 +547,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StreetFood.app/StreetFood";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Foodmap.app/Foodmap";
 			};
 			name = Release;
 		};
@@ -590,7 +590,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3630EC61282BDD5B0014F0FF /* Build configuration list for PBXProject "StreetFood" */ = {
+		3630EC61282BDD5B0014F0FF /* Build configuration list for PBXProject "Foodmap" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3630EC88282BDD5C0014F0FF /* Debug */,
@@ -599,7 +599,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3630EC8A282BDD5C0014F0FF /* Build configuration list for PBXNativeTarget "StreetFood" */ = {
+		3630EC8A282BDD5C0014F0FF /* Build configuration list for PBXNativeTarget "Foodmap" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3630EC8B282BDD5C0014F0FF /* Debug */,
@@ -608,7 +608,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3630EC8D282BDD5C0014F0FF /* Build configuration list for PBXNativeTarget "StreetFoodTests" */ = {
+		3630EC8D282BDD5C0014F0FF /* Build configuration list for PBXNativeTarget "FoodmapTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3630EC8E282BDD5C0014F0FF /* Debug */,
@@ -617,7 +617,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3630EC90282BDD5C0014F0FF /* Build configuration list for PBXNativeTarget "StreetFoodUITests" */ = {
+		3630EC90282BDD5C0014F0FF /* Build configuration list for PBXNativeTarget "FoodmapUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3630EC91282BDD5C0014F0FF /* Debug */,

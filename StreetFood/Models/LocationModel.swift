@@ -47,7 +47,13 @@ struct LocationModel: Identifiable {
                 
             ]),
             
-            LocationModel(name: "Carrinho do Tio", mainCourse: "Sanduíche de Páo Carioca", openingHours: "6:00h - 18:00h", locationReference: "Entrada da 13 de maio" ,coordinate: CLLocationCoordinate2D(latitude: -3.744207, longitude: -38.535440), imageName: ""),
+            LocationModel(name: "Carrinho do tio", mainCourse: "", openingHours: "6:00h - 18:00h", locationReference: "Entrada da 13 de maio" ,coordinate: CLLocationCoordinate2D(latitude: -3.744207, longitude: -38.535440), imageName: "maxresdefault-2", menu: [
+                ProductModel(name: "Sanduíche", price: "3.00"),
+                ProductModel(name: "Café", price: "1.00 - 2.00"),
+                ProductModel(name: "Salgado", price: "3.00"),
+                ProductModel(name: "Suco", price: "1.00 ")
+            
+            ]),
         ]
     }
 }
